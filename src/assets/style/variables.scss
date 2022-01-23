@@ -1,0 +1,11 @@
+$mainColor: #777af2;
+$boxShadowLarge: 0px 12px 26px rgba(16, 30, 115, 0.06);
+$boxShadowDefault: 0px 4px 16px rgba(16, 30, 115, 0.08);
+$boxShadowSmall: 0px 0px 8px rgba(16, 30, 115, 0.12);
+
+@mixin flex($justify, $alignItems, $flexDir) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $alignItems;
+  flex-direction: $flexDir;
+}

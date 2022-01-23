@@ -1,0 +1,14 @@
+@import "../../assets/style/variables.scss";
+
+footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+  background: $mainColor;
+  color: white;
+  padding: 20px;
+  p {
+    margin: auto;
+  }
+}

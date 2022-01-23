@@ -1,0 +1,84 @@
+@import "../../assets/style/variables.scss";
+header {
+  margin-bottom: 30px;
+
+  @include flex(space-between, center, row);
+  .logo {
+    a {
+      @include flex(inherit, center, row);
+
+      img {
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+      }
+      span {
+        font-size: 50px;
+        font-weight: 700;
+        color: $mainColor;
+      }
+    }
+  }
+  .navbar {
+    ul {
+      @include flex(inherit, center, row);
+      .buttons {
+        display: flex;
+      }
+      li {
+        margin-left: 10px;
+        color: $mainColor;
+        position: relative;
+        &:first-child {
+          &:hover {
+            .dropdown {
+              display: block;
+            }
+          }
+        }
+        .dropdown {
+          display: none;
+          position: absolute;
+          left: -10px;
+          width: 150px;
+          margin: 0;
+          background-color: white;
+          padding: 10px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          li {
+            margin-bottom: 5px;
+          }
+        }
+        button {
+          border: 1px solid;
+          padding: 10px 27px;
+          background: $mainColor;
+          color: white;
+          border-radius: 10px;
+        }
+      }
+      button {
+        border: 1px solid;
+        padding: 10px 27px;
+        background: $mainColor;
+        color: white;
+        border-radius: 10px;
+        margin-left: 10px;
+      }
+    }
+    .hidden {
+      @include flex(center, center, row);
+      position: absolute;
+      left: 0;
+      top: 80px;
+      height: 300px;
+      width: 100%;
+      color: white;
+      background-color: $mainColor;
+      z-index: 1;
+    }
+    .hamburger {
+      display: none;
+    }
+  }
+}
