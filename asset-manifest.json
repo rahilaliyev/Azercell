@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Azercell/static/css/main.5201734f.css",
+    "main.js": "/Azercell/static/js/main.ae0a7287.js",
+    "static/media/mainBg.jpg": "/Azercell/static/media/mainBg.1da45f78695281d65a8c.jpg",
+    "static/media/logo.jpg": "/Azercell/static/media/logo.98ceeecc718e09c038ad.jpg",
+    "index.html": "/Azercell/index.html",
+    "main.5201734f.css.map": "/Azercell/static/css/main.5201734f.css.map",
+    "main.ae0a7287.js.map": "/Azercell/static/js/main.ae0a7287.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5201734f.css",
+    "static/js/main.ae0a7287.js"
+  ]
+}
