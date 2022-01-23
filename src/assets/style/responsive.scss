@@ -57,8 +57,10 @@
 @media only screen and (max-width: 900px) {
   header {
     .logo {
-      span {
-        font-size: 25px;
+      a {
+        span {
+          font-size: 25px;
+        }
       }
     }
   }

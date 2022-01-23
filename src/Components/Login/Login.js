@@ -5,9 +5,7 @@ import { logInOut } from "../../redux/actions/action";
 
 const Login = () => {
   const dispatch = useDispatch();
-  const logout = () => {
-    dispatch(logInOut(false));
-  };
+
   const login = () => {
     dispatch(logInOut(true));
   };
